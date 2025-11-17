@@ -1,0 +1,12 @@
+{
+    "for": {
+        "prefix": "for",
+        "body": [
+            "for ${1:elem} in ${2:iter} {",
+            "for (int ${1:value} = 0; ${1:value} < #{2:value}; ${1:value}++) {"
+            "\t$0",
+            "}"
+        ],
+        "description": "Insert for loop"
+    },
+}
